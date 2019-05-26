@@ -1,0 +1,6 @@
+list:
+  handler: src/api/handlers/universities/list.all
+  events:
+      - http: 
+          path: universities
+          method: get

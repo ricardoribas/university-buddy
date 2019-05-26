@@ -1,0 +1,9 @@
+service: university-api
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: dev
+
+functions:
+  - '${file(src/api/handlers/universities/universities.yml)}'

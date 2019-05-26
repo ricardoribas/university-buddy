@@ -1,0 +1,27 @@
+{
+  "name": "university-buddy",
+  "version": "1.0.0",
+  "description": "API that will enable users to see information about universities",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardoribas/university-buddy.git"
+  },
+  "keywords": [
+    "api",
+    "universities"
+  ],
+  "author": "Ricardo Ribas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardoribas/university-buddy/issues"
+  },
+  "homepage": "https://github.com/ricardoribas/university-buddy#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-node": "^9.1.0"
+  }
+}
